@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1{
+    font-size: 3em; /* Taille de la police */
+    color: goldenrod; /* Couleur orange */
+    font-family: 'Georgia', serif; /* Police de caractère */
+    margin: 10px 0; /* Espace autour */
+    text-align: center; /* Centre le texte */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre portée */
+}
+header {  
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color: white;
+}
+.hero h2 {
+    font-size: 2em;
+    margin: 0;
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.category {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: white;
+    width: calc(33% - 30px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product:hover {
+    transform: scale(1.05);
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Formulaire de contact */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
