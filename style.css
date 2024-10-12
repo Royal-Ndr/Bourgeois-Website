@@ -199,3 +199,25 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+body {
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève le padding par défaut */
+    font-family: Arial, sans-serif; /* Choisis une police */
+}
+
+.container {
+    width: 90%; /* Largeur à 90% de l'écran */
+    max-width: 1200px; /* Limite à 1200px sur les grands écrans */
+    margin: 0 auto; /* Centre le conteneur */
+    padding: 20px; /* Espace intérieur */
+}
+
+img {
+    max-width: 100%; /* Les images ne débordent pas */
+    height: auto; /* Conserve le ratio d'aspect */
+}
+
+.flex-container {
+    display: flex; /* Active Flexbox */
+    flex-wrap: wrap; /* Permet aux éléments de se déplacer à la ligne */
+}
